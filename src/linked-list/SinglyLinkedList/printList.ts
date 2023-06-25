@@ -20,6 +20,5 @@ export const printLinkedList = <T>(list: LinkedList<T>): void => {
       O.chain(node => node.next),
     )
   }
-
-  console.log('null')
+  process.stdout.write('null\n')
 }
